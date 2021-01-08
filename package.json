@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/zhentaoo.js",
-    "test-zhentaoo": "npm run zhentaoo",
-    "test-juejin": "npm run sf-juejin",
-    "sf-juejin": "node src/sf-juejin.js",
     "zhentaoo": "node src/zhentaoo.js",
+    "sf-juejin": "node src/sf-juejin.js",
     "es6": "rm -rf ./data/es6-pdf/* && node src/es6-crawl.js",
+    "es6m": "rm -rf ./data/es6-pdf/* && node src/es6-crawl.mjs",
     "es6-del": "rm -rf ./data/es6-pdf/*",
     "trace": "node src/trace.js",
     "monitor": "node src/monitor/bin/www",

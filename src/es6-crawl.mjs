@@ -1,7 +1,7 @@
-const puppeteer = require('puppeteer');
-console.log('puppeteer 01:>> ', puppeteer);
-const {timeout} = require('../tools/tools.js');
-console.log('timeout :>> ', timeout);
+import puppeteer from 'puppeteer';
+console.log('puppeteer:>> ', puppeteer);
+import pkg from '../tools/tools.js';
+const { timeout } = pkg;
 
 puppeteer.launch().then(async browser => {
   let page = await browser.newPage();
