@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer';
 console.log('puppeteer:>> ', puppeteer);
 import pkg from '../tools/tools.js';
 const { timeout } = pkg;
+console.log('timeout :>> ', timeout);
 
 puppeteer.launch().then(async browser => {
   let page = await browser.newPage();
