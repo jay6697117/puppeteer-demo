@@ -7,6 +7,7 @@
     "start": "node src/zhentaoo.js",
     "zhentaoo": "node src/zhentaoo.js",
     "sf-juejin": "node src/sf-juejin.js",
+    "weread": "rm -rf ./data/weread/* && node src/weread.js",
     "es6-cjs": "rm -rf ./data/es6-pdf/* && node src/es6-crawl.js",
     "es6-mjs": "rm -rf ./data/es6-pdf/* && node src/es6-crawl.mjs",
     "es6-del": "rm -rf ./data/es6-pdf/*",
